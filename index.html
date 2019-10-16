@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 side-bar col-sm-auto">
+          <div class="logo">
+            <h2>Hola Usuario</h2>
+          </div>
+          <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+            <a href="#"><i class="icon-users"></i><span>Perfil</span></a>
+            <a href="#"><i class="icon-doc-text"></i><span>Cuenta</span></a>
+            <a href="/modificarinfo.html"
+              ><i class="icon-cog-alt"></i><span>Configuración</span></a
+            >
+            <a href="#"><i class="icon-logout"></i><span>Salir</span></a>
+          </nav>
+        </div>
+
+        <main>
+          <div class="container">
+            <div class="row mt-3">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./img/persona1.jpg"
+                    class="card-img-top img-fluid"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">Usuario</h3>
+                    <p></p>
+                    <a href="/modificarinfo.html"
+                      ><button class="btn btn-primary">
+                        Editar información
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
